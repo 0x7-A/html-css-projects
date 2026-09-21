@@ -1,0 +1,65 @@
+section{
+    background-color: darkgrey;
+    background-color: rgba(30, 41, 59, 0.65);
+    margin: 20px auto;
+    padding: 10px;
+}
+body
+{
+   text-align: center;
+   color:#f1f5f9;
+   background-image: url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1920&q=80');
+   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.px
+{
+    width: 1000px;
+    min-height: 100px;
+}
+.in 
+{
+    width: 11in;
+    min-height: 1.5in;
+}
+.cm
+{
+    width: 30cm;
+    min-height: 4%;
+}
+.percentage
+{
+width: 70%;
+height: 5%;
+}
+.em
+{
+    width: 60em;
+}
+.rem
+{
+    width: 60rem;
+}
+.vwvh
+{
+    width: 77vw;
+}
+.ch
+{
+    width: 100ch;
+}
+.ex
+{
+    width: 100ex;
+}
+h1{
+    color: #ffffff;
+    margin: 4%;
+}
+section h2{
+color: #38bdf8;
+}
+p {
+  color: #cbd5e1;
+}

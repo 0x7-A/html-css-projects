@@ -1,14 +1,20 @@
 # HTML & CSS Practice Projects
-A collection of foundational front-end projects focusing on semantic HTML markup and CSS styling principles.
+
+A collection of foundational front-end projects focusing on semantic HTML structure and CSS styling principles.
 
 ## Projects Overview
 
 ### 1. Semantic HTML Blog (`01-semantic-blog`)
-* A responsive blog layout built with semantic HTML tags (`<article>`, `<section>`, `<aside>`).
-* Basic CSS typography, margins, and content structure.
+* Built with structured semantic elements to enhance accessibility and SEO.
+* Uses responsive image sets, code snippet formatting, and blockquotes.
+* Basic typography and navigation layout.
 
 ### 2. Pricing Comparison Table (`02-pricing-table`)
-* A subscription pricing table structured with semantic table tags (`<caption>`, `<thead>`, `<tbody>`, `<tfoot>`).
-* Responsive table sizing using `max-width` and auto margins.
-* Page layout styled using Flexbox to manage vertical flow and footer positioning.
+* Subscription comparison table with header, body, and footer structure.
+* Clean border styling and responsive table alignment.
+* Flexbox layout configured to keep the footer pinned to the bottom.
 
+### 3. Unit Showcase (`03-unit-showcase`)
+* Visual reference guide comparing absolute and relative CSS units.
+* Highlights common use cases for px, in, cm, %, em, rem, vw/vh, ch, andex.
+* Card-based layout with centered alignment and transparent styling.
