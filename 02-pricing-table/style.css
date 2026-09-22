@@ -2,7 +2,6 @@ html, body {
   height: 100%;
   margin: 0;
 }
-
 body {
   font-family: "Virgil", "Shantell Sans", "Caveat", cursive;
   display: flex;
@@ -10,18 +9,15 @@ body {
   min-height: 100vh;
   text-align: center;
 }
-
 nav {
-  margin: 9px 0px 50px;
+  margin: 0px 0px 30px;
 }
-
 a {
   color: black;
   text-decoration: none; 
   font-size: 20px;
   margin-right: 25px;   
 }
-
 table {
   border: 1px solid black;
   border-collapse: collapse;
@@ -39,11 +35,10 @@ tfoot {
   background-color: lightgray;
 }
 h1 {
-  margin-top: 40px;
+  margin-top: 20px;
 }
-
 nav {
-  margin: 10px 0 45px 0;
+  margin: 5px 0 45px 0;
 }
 footer
 {
@@ -63,26 +58,18 @@ body {
   background-color: #faf8f5;  /* Soft sketchbook cream */
   color: #2b2b2b;
 }
-
 table {
   background-color: #ffffff;  /* Makes the table pop cleanly */
   border: 2px solid #2b2b2b;
 }
-
 th, td {
   border: 1px solid #d0c8b8;
 }
-
 thead th {
   background-color: #f1ede4;
 }
-
 tfoot {
   background-color: #e8e2d5;
-}
-
-footer {
-
 }
 main hr {
   width: 100%;
@@ -95,4 +82,72 @@ margin-top: auto;
   width: 100%;
   border: none;
   border-top: 1px solid #2b2b2b;
+}
+/* Each label + input row */
+.form-row {
+  display: flex;
+  align-items: flex-start; /* Aligns label to top when textarea expands */
+  margin-bottom: 16px;     /* Vertical space between rows */
+}
+
+/* 1. Fix the width of every label so inputs start at the exact same spot */
+.form-row label {
+  width: 100px;            /* Gives all labels the exact same space */
+  text-align: left;        /* Aligns label text neatly */
+  flex-shrink: 0;          /* Prevents labels from squishing */
+}
+
+/* 2. Make all input fields identical in width */
+.form-row input,
+.form-row select,
+.form-row textarea {
+  width: 280px;            /* Set desired uniform width for all inputs */
+  box-sizing: border-box;  /* Ensures padding doesn't affect width */
+}
+form {
+  max-width: 520px;       /* Keeps the form from stretching too wide */
+  margin: 0 auto;          /* 0 on top/bottom, auto centers left and right */
+  display: flex;
+  flex-direction: column;
+  gap: 16px;               /* Clean, equal spacing between each item */
+}
+/* Align entire radio group to the left edge of the form */
+.radio-group {
+  text-align: left;
+  margin-top: 10px;
+}
+/* Ensure the title stays left-aligned */
+.group-title {
+  text-align: left;
+  margin: 0 0 10px 0;
+  font-weight: bold;
+}
+
+/* Stack the 3 radio options in a neat column */
+.radio-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start; /* Keeps them locked to the left */
+}
+
+/* Keep the circle and text paired side-by-side */
+.radio-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+/* Checkbox alignment */
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 15px 0;
+  text-align: left;
+}
+button
+{
+  margin: 0px 0px 30px;
 }
