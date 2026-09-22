@@ -87,3 +87,9 @@ footer {
   background-color: #2b2b2b;
   color: #faf8f5;
 }
+hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #2b2b2b;
+  margin: 0;
+}
